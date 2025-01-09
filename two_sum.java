@@ -1,5 +1,5 @@
 public class two_sum {
-    public instatic void main(String[] args) {
+    public static void main(String[] args) {
         
     }
 }

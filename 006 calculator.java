@@ -1,25 +1,24 @@
  class calculator {
     int a,b,c;
-    void add(){
-c=a+b;
-System.out.println("a + b="+c);
+    int  add(){
+return (a+b);
     }
-void sub(){
-    c=a-b;
-    System.out.println("a - b="+c);
+int sub(){
+    return (a-b);
+    //System.out.println("a - b="+c);
 }
-    void mul(){
-        c=a*b;
-        System.out.println("a * b="+c);
+    int mul(){
+    return a*b;
+        //System.out.println("a * b="+c);
     }
-    void div(){
+    int div(){
         if(b!=0){
-            c=a/b;
-            System.out.println("a / b="+c);
+            return a/b;
+            //System.out.println("a / b="+c);
         }else{
             System.out.println("Not divisible");
         }
-        
+        return a;    
 }
  }
   class cal{                        //File Name Matches public Class: If your public class is named Cal, the file should be named Cal.java.
@@ -30,9 +29,9 @@ void sub(){
     calculator y=new calculator();
     y.a=5;
     y.b=6;
-    y.add();
-    y.sub();
-    y.mul();
-    y.div();
+    System.out.println(y.add());
+    System.out.println(y.sub());
+    System.out.println(y.mul());
+    System.out.println(y.div());
  }
  }
