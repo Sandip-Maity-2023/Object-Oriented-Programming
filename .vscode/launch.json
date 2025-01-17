@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Comand_line_arguments",
+            "request": "launch",
+            "mainClass": "Comand_line_arguments",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
+            "name": "encapsulation",
+            "request": "launch",
+            "mainClass": "encapsulation",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
+            "name": "two_sum",
+            "request": "launch",
+            "mainClass": "two_sum",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        }
+    ]
+}
