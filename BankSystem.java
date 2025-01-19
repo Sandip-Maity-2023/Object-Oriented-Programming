@@ -30,7 +30,7 @@ class BankAccount {
     }
 
     public void displayCustomerInfo() {
-        System.out.println("Customer Name: " + customerName);
+        System.out.println("Customer Name: " + customer);
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Current Balance: " + balance);
     }
@@ -79,3 +79,6 @@ public class BankSystem {
         x.close();
     }
 }
+
+
+
