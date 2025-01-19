@@ -3,12 +3,11 @@ public class overloading {
     
         int a,b;
     
-        int area(int a,int b){
+        void area(int a,int b){
             this.a=a;
             this.b=b;
             int z=this.a*this.b;
             System.out.println("Area of Rectangle:"+z);
-                        return z;
         }
         void area(int a){
             this.a=a;

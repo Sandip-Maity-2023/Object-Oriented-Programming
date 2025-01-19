@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
+            "name": "circle",
+            "request": "launch",
+            "mainClass": "circle",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
             "name": "Launch with Arguments Prompt",
             "request": "launch",
             "mainClass": "",
@@ -18,7 +32,6 @@
             "mainClass": "",
             "args": "${command:SpecifyProgramArgs}"
         },
-
         {
             "type": "java",
             "name": "Current File",
