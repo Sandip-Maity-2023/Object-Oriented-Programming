@@ -20,7 +20,7 @@ void peri(double a,double b){
     System.out.println("Perimeter of Rectangle="+p1);
 }
 }
-class circle{
+class Area{
     public static void main(String[] args) {
         find y=new find();
         y.get(8.5);
