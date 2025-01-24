@@ -1,6 +1,7 @@
 //implement the concept of voting system in Oop 
 class ex{
 int age;
+
 void set(int age){
     this.age=age;
 }
