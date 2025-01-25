@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Area",
+            "request": "launch",
+            "mainClass": "Area",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
             "name": "tiger",
             "request": "launch",
             "mainClass": "tiger",
