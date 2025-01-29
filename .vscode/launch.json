@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "single_inheritance",
+            "request": "launch",
+            "mainClass": "single_inheritance",
+            "projectName": "Object-Oriented-Programming_37517f96"
+        },
+        {
+            "type": "java",
             "name": "Area",
             "request": "launch",
             "mainClass": "Area",
