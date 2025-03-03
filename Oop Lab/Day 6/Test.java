@@ -14,7 +14,7 @@ class thread implements Runnable
             e.printStackTrace();
         }
 
-        System.out.println("State of thread1 while it called"+ " join() method on thread2 -"+ Test.thread1.getState());
+        System.out.println("State of thread1 "+ Test.thread1.getState());
         
           try {
             Thread.sleep(200);
@@ -38,12 +38,12 @@ public class Test implements Runnable {
 
         // thread2 created and is currently in the NEW
         // state.
-        System.out.println("State of thread2 after creating it - "+ y.getState());
+        System.out.println("State of thread2 "+ y.getState());
       
         y.start();
 
         // thread2 moved to Runnable state
-        System.out.println("State of thread2 after calling .start()" + " method on it - " + y.getState());
+        System.out.println("State of thread2 " + y.getState());
 
         // moving y to timed waiting state
         try {
@@ -54,7 +54,7 @@ public class Test implements Runnable {
             e.printStackTrace();
         }
       
-        System.out.println("State of thread2 after calling .sleep()" + " method on it - " + y.getState());
+        System.out.println("State of thread2 " + y.getState());
 
         try {
             // waiting for thread2 to die
@@ -64,7 +64,7 @@ public class Test implements Runnable {
             e.printStackTrace();
         }
       
-        System.out.println("State of thread2 when it has finished "+ "it's execution - " + y.getState());
+        System.out.println("State of thread2 " + y.getState());
     }
   
     public static void main(String[] args)
@@ -74,11 +74,11 @@ public class Test implements Runnable {
 
         // thread1 created and is currently in the NEW
         // state.
-        System.out.println("State of thread1 after creating it - "+ thread1.getState());
+        System.out.println("State of thread1 "+ thread1.getState());
       
         thread1.start();
 
         // thread1 moved to Runnable state
-        System.out.println("State of thread1 after calling .start()"+ " method on it - " + thread1.getState());
+        System.out.println("State of thread1 "+ thread1.getState());
     }
 }
