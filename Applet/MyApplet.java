@@ -1,3 +1,5 @@
+package Applet;
+
 import java.applet.Applet;
 import java.awt.*;
 
@@ -5,7 +7,7 @@ import java.awt.*;
  <applet code="MyApplet" width="400" height="400"></applet>
 */
 
-public class myapplet extends Applet {
+public class MyApplet extends Applet {
     
     // Applet initialization
     public void init() {
@@ -18,21 +20,21 @@ public class myapplet extends Applet {
         System.out.println("Applet Started");
     }
 
-    // Called when the applet stops
-    public void stop() {
-        System.out.println("Applet Stopped");
-    }
+    // // Called when the applet stops
+    // public void stop() {
+    //     System.out.println("Applet Stopped");
+    // }
 
-    // Called when the applet is destroyed
-    public void destroy() {
-        System.out.println("Applet Destroyed");
-    }
+    // // Called when the applet is destroyed
+    // public void destroy() {
+    //     System.out.println("Applet Destroyed");
+    // }
 
     // Paint method to draw shapes
     public void paint(Graphics g) {
         g.setColor(Color.BLUE);
         g.drawString("Hello, Applet!", 50, 50);
-
+        
         g.setColor(Color.RED);
         g.drawLine(50, 70, 200, 70);
 
@@ -42,5 +44,4 @@ public class myapplet extends Applet {
         g.setColor(Color.MAGENTA);
         g.drawOval(50, 210, 150, 100);
     }
-    
 }
