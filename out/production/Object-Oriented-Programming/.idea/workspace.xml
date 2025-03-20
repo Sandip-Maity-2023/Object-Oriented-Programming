@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0166a308-5eea-4f8a-8ab5-7c96d2cc1896" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/medical/ALL_Patient_Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/Ambulance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/Employee_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/NEW_PATIENT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/Reception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/SearchRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/conn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/amb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/dr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/myphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/patient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/roomm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/img/updated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/patient_discharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medical/update_patient_details.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sandip-Maity-2023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sandip-Maity-2023/Object-Oriented-Programming.git&quot;,
+    &quot;accountId&quot;: &quot;b12a7943-3625-48d1-8332-f9015976a37c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2uXLe4iRPATfOUWbnxsnacmExpP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Login.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12san\OneDrive\Documents\GitHub\Coding-Decoding\ASSIGNMENT\Object-Oriented-Programming\medical" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medical.Login" />
+      <module name="Object-Oriented-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0166a308-5eea-4f8a-8ab5-7c96d2cc1896" name="Changes" comment="" />
+      <created>1742390063536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742390063536</updated>
+      <workItem from="1742390064634" duration="158000" />
+      <workItem from="1742404540949" duration="1635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
