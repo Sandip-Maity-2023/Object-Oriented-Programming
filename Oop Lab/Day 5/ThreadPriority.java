@@ -1,4 +1,4 @@
-class A extends Thread {
+class AA extends Thread {
     public void run() {
         for (int i = 0; i <= 4; i++) {
             System.out.println("Thread A started");
@@ -7,7 +7,7 @@ class A extends Thread {
     }
 }
 
-class B extends Thread {
+class BA extends Thread {
     public void run() {
         for (int j = 1; j <= 5; j++) {
             System.out.println("Thread B started");
@@ -16,7 +16,7 @@ class B extends Thread {
     }
 }
 
-class C extends Thread {
+class CA extends Thread {
     public void run() {
         for (int k = 1; k <= 3; k++) {
             System.out.println("Thread C started");
@@ -27,9 +27,9 @@ class C extends Thread {
 
 public class ThreadPriority {
     public static void main(String[] args) {
-        A x = new A();
-        B y = new B();
-        C z = new C();
+        AA x = new AA();
+        BA y = new BA();
+        CA z = new CA();
 
         x.setPriority(Thread.MAX_PRIORITY);  // 10
         y.setPriority(Thread.NORM_PRIORITY + 1); // Default priority (5) + 1 = 6

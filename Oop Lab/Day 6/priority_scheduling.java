@@ -1,7 +1,7 @@
 //program to implement priority scheduling 
 import java.lang.*;
 
- class one extends Thread{
+ class one1 extends Thread{
     public void run(){
         System.out.println(Thread.currentThread().getName()+" is running with priority "+Thread.currentThread().getPriority());
     }
@@ -9,9 +9,9 @@ import java.lang.*;
 
  public class priority_scheduling{
 public static void main(String[] args) {
-    one t1=new one();
-    one t2=new one();
-    one t3=new one();
+    one1 t1=new one1();
+    one1 t2=new one1();
+    one1 t3=new one1();
 
     System.out.println("t1 thread priority:"+t1.getPriority());
     System.out.println("t2 thread priority:"+t2.getPriority());

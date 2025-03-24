@@ -1,15 +1,15 @@
-interface A{
+interface Aq{
     void disA();
 }
-interface B{
+interface Bq{
     void disB();
 }
-class C{
+class Cq{
     void disC(){
         System.out.println("In C class");
     }
 }
-class D extends C implements A,B {
+class D extends Cq implements Aq,Bq {
     public void disA(){
 System.out.println("For A interface");
     }

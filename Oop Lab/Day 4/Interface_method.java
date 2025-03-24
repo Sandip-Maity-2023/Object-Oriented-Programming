@@ -1,10 +1,10 @@
-interface A{
+interface A0{
     void disA();
     }
-    interface B{
+    interface B01{
     void disB();
     }
-    class C implements A,B{
+    class C01 implements A0,B01{
     public void disA(){  //only void not suitable has to add public
         System.out.println("For A interface");
     }
@@ -17,7 +17,7 @@ interface A{
     }
     public class Interface_method {
         public static void main(String[] args) {
-            C x=new C();
+            C01 x=new C01();
             x.disA();
             x.disB();
             x.disC();

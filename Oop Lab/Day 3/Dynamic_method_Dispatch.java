@@ -1,6 +1,6 @@
 // A Java program to illustrate Dynamic Method
 // Dispatch using hierarchical inheritance
-class A
+class A1
 {
     void m1()
     {
@@ -8,7 +8,7 @@ class A
     }
 }
 
-class B extends A
+class B0 extends A1
 {
     // overriding m1()
     void m1()
@@ -17,7 +17,7 @@ class B extends A
     }
 }
 
-class C extends A
+class C0 extends A1
 {
     // overriding m1()
     void m1()
@@ -31,15 +31,15 @@ public class Dynamic_method_Dispatch
 {
     public static void main(String args[])
     {
-        A a = new A();
+        A1 a = new A1();
 
-        B b = new B();
+        B0 b = new B0();
 
         // object of type C
-        C c = new C();
+        C0 c = new C0();
 
         // obtain a reference of type A
-        A ref;
+        A1 ref;
         
         // ref refers to an A object
         ref = a;

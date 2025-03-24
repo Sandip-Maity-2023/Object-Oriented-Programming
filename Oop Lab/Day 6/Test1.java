@@ -14,7 +14,7 @@ class thread implements Runnable
             e.printStackTrace();
         }
 
-        System.out.println("State of thread1 "+ Test.thread1.getState());
+        System.out.println("State of thread1 "+ Test1.thread1.getState());
         
           try {
             Thread.sleep(200);
@@ -25,9 +25,9 @@ class thread implements Runnable
     }
 }
 
-public class Test implements Runnable {
+public class Test1 implements Runnable {
     public static Thread thread1;
-    public static Test p;
+    public static Test1 p;
 
       // Overriding the run method
       @Override
@@ -69,7 +69,7 @@ public class Test implements Runnable {
   
     public static void main(String[] args)
     {
-        p = new Test();
+        p = new Test1();
         thread1 = new Thread(p);
 
         // thread1 created and is currently in the NEW

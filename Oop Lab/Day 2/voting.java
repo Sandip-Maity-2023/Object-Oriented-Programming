@@ -1,5 +1,5 @@
 //implement the concept of voting system in Oop 
-class ex{
+class ex1{
 int age;
 
 void set(int age){
@@ -15,7 +15,7 @@ void get(){
 }
 public class voting {
     public static void main(String[] args) {
-        ex y=new ex();
+        ex1 y=new ex1();
         y.set(15);
         y.get();
     }

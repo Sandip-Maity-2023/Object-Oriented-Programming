@@ -7,5 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jcalendar-tz-1.3.3-4" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.28" level="project" />
+    <orderEntry type="library" name="ResultSet2xml" level="project" />
+    <orderEntry type="library" name="sqlitejdbc-v056" level="project" />
   </component>
 </module>

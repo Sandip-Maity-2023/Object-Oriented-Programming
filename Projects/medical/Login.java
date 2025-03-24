@@ -1,4 +1,4 @@
-package medical;
+package Projects.medical;
 
 
 import javax.swing.*;
@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
+import net.proteanit.sql.DbUtils;
 
 public class Login extends JFrame implements ActionListener {
 
@@ -39,7 +40,7 @@ public class Login extends JFrame implements ActionListener {
         jPasswordField.setBackground(new Color(255,179,0));
         add(jPasswordField);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/login.png"));
+        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("Projects/icon/login.png"));
         Image i1 = imageIcon.getImage().getScaledInstance(500,500,Image.SCALE_DEFAULT);
         ImageIcon imageIcon1 = new ImageIcon(i1);
         JLabel label = new JLabel(imageIcon1);
@@ -72,29 +73,29 @@ public class Login extends JFrame implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-//        if (e.getSource() == b1){
-//            try{
-//                conn c = new conn();
-//                String user = textField.getText();
-//                String Pass = jPasswordField.getText();
-//
-//                String q = "select * from login where ID = '"+user+"' and  PW = '"+Pass+"'";
-//                ResultSet resultSet = c.statement.executeQuery(q);
-//
-//                if (resultSet.next()){
-//                    new Reception();
-//                    setVisible(false);
-//                }else {
-//                    JOptionPane.showMessageDialog(null,"Invalid");
-//                }
-//
-//            }catch (Exception E){
-//                E.printStackTrace();
-//            }
-//
-//        }else {
-//            System.exit(10);
-//        }
+        if (e.getSource() == b1){
+            try{
+                conn c = new conn();
+                String user = textField.getText();
+                String Pass = jPasswordField.getText();
+
+                String q = "select * from login where ID = '"+user+"' and  PW = '"+Pass+"'";
+                ResultSet resultSet = c.statement.executeQuery(q);
+
+                if (resultSet.next()){
+                    new Reception();
+                    setVisible(false);
+                }else {
+                    JOptionPane.showMessageDialog(null,"Invalid");
+                }
+
+            }catch (Exception E){
+                E.printStackTrace();
+            }
+
+        }else {
+            System.exit(10);
+        }
 
     }
 

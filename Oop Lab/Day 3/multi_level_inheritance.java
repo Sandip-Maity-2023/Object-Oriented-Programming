@@ -1,4 +1,4 @@
-class A {
+class AB1 {
     int x;
     void disp(){
         System.out.println("In A class");
@@ -6,7 +6,7 @@ class A {
 
     }
 }
-class B extends A{
+class B1 extends AB1{
 int y;
 void disp2(){
     System.out.println("In B class");
@@ -16,7 +16,7 @@ void disp2(){
     disp();
 }
 }
-class C extends B{
+class C1 extends B1{
     int z;
     void disp3(){
         System.out.println("In C class");
@@ -30,7 +30,7 @@ class C extends B{
 }
 public class multi_level_inheritance{
     public static void main(String[] args) {       
-        C p=new C();
+        C1 p=new C1();
         p.y=20;
         p.x=10;
         p.z=30;
