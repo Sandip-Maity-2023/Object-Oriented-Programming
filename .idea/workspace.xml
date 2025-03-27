@@ -5,84 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0166a308-5eea-4f8a-8ab5-7c96d2cc1896" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ResultSet2xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_tz_1_3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlitejdbc_v056.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/amb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/dr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/myphoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/patient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/roomm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/icon/updated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/ALL_Patient_Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Ambulance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Employee_info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/NEW_PATIENT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Reception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/SearchRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/Workbench table of java medical.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/conn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/patient_discharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/medical/update_patient_details.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object-Oriented-Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Object-Oriented-Programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 2/tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 2/tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 2/voting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 2/voting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 3/Dynamic_method_Dispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 3/Dynamic_method_Dispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 3/multi_level_inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 3/multi_level_inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 4/Interface_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 4/Interface_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 4/abstraction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 4/abstraction1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 4/interface_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 4/interface_example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 4/shape_objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 4/shape_objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 5/ThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 5/ThreadPriority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 6/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oop Lab/Day 6/priority_scheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Oop Lab/Day 6/priority_scheduling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/ALL_Patient_Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Ambulance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Employee_info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/NEW_PATIENT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Reception.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/ResultSet2xml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/SearchRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/Workbench table of java medical.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/conn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/amb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/dr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/myphoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/patient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/roomm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/img/updated.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/jcalendar-tz-1.3.3-4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/mysql-connector-java-8.0.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/patient_discharge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/sqlitejdbc-v056.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical/update_patient_details.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/Object-Oriented-Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/Object-Oriented-Programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/amb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/dr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/myphoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/patient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/roomm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Object-Oriented-Programming/medical/img/updated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "show.migrate.to.gradle.popup": "false",
@@ -249,6 +173,7 @@
       <workItem from="1742390064634" duration="158000" />
       <workItem from="1742404540949" duration="2191000" />
       <workItem from="1742785283227" duration="2559000" />
+      <workItem from="1742903361034" duration="1979000" />
     </task>
     <servers />
   </component>

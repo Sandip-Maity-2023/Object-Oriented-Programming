@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NEW_PATIENT",
+      "request": "launch",
+      "mainClass": "Projects.medical.NEW_PATIENT",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Login",
+      "request": "launch",
+      "mainClass": "Projects.medical.Login",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
       "name": "one",
       "request": "launch",
       "mainClass": "one",
