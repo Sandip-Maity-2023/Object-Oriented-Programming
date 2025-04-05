@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Demo7",
+      "request": "launch",
+      "mainClass": "Demo7",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo6",
+      "request": "launch",
+      "mainClass": "Demo6",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo5",
+      "request": "launch",
+      "mainClass": "Demo5",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo4",
+      "request": "launch",
+      "mainClass": "Demo4",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo3",
+      "request": "launch",
+      "mainClass": "Demo3",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo2",
+      "request": "launch",
+      "mainClass": "Demo2",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo1",
+      "request": "launch",
+      "mainClass": "Demo1",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
       "name": "NEW_PATIENT",
       "request": "launch",
       "mainClass": "Projects.medical.NEW_PATIENT",
