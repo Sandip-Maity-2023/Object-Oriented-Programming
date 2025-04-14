@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "hello",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
       "name": "Demo7",
       "request": "launch",
       "mainClass": "Demo7",

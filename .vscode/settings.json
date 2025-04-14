@@ -56,5 +56,12 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\Users\\12san\\Downloads\\ResultSet2xml.jar",
+    "c:\\Users\\12san\\Downloads\\sqlitejdbc-v056.jar",
+    "c:\\Users\\12san\\Downloads\\mysql-connector-java-8.0.28.jar",
+    "c:\\Users\\12san\\Downloads\\jcalendar-tz-1.3.3-4.jar"
+  ]
 }
