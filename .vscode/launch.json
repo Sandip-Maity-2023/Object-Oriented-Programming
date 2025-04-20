@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hotel_manage",
+      "request": "launch",
+      "mainClass": "hotel_manage",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "EnhancedRegistrationForm",
+      "request": "launch",
+      "mainClass": "EnhancedRegistrationForm",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "call",
+      "request": "launch",
+      "mainClass": "call",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "registration",
+      "request": "launch",
+      "mainClass": "registration",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "LineTest",
+      "request": "launch",
+      "mainClass": "LineTest",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "a",
+      "request": "launch",
+      "mainClass": "a",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "room",
+      "request": "launch",
+      "mainClass": "Hotel.src.room",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "splash",
+      "request": "launch",
+      "mainClass": "Hotel.src.splash",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
       "name": "hello",
       "request": "launch",
       "mainClass": "hello",

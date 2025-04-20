@@ -177,20 +177,7 @@
       <recent name="C:\Users\12san\OneDrive\Documents\GitHub\Coding-Decoding\ASSIGNMENT\Object-Oriented-Programming\medical" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.splash">
-    <configuration name="admin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hotel.src.admin" />
-      <module name="Object-Oriented-Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hotel.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.registration">
     <configuration name="checkout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hotel.src.checkout" />
       <module name="Object-Oriented-Programming" />
@@ -230,6 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="registration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="registration" />
+      <module name="Object-Oriented-Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="splash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hotel.src.splash" />
       <module name="Object-Oriented-Programming" />
@@ -245,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.registration" />
         <item itemvalue="Application.splash" />
         <item itemvalue="Application.dashboard" />
         <item itemvalue="Application.customerInfo" />
         <item itemvalue="Application.checkout" />
-        <item itemvalue="Application.admin" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +278,7 @@
       <workItem from="1744579039199" duration="302000" />
       <workItem from="1744579355838" duration="1293000" />
       <workItem from="1744580724201" duration="751000" />
+      <workItem from="1744615547020" duration="295000" />
     </task>
     <servers />
   </component>
