@@ -1,3 +1,4 @@
+package Practice;
 //this program uses commandline arguments as input
 public class Comand_line_arguments {
     public static void main(String[] args) {

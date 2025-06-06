@@ -34,7 +34,7 @@ public class room extends JFrame {
         panel.add(table);
 
         try{
-            con c = new con();
+            con1 c = new con1();
             String RoomInfo = "select * from room";
             ResultSet resultSet = c.s.executeQuery(RoomInfo);
             table.setModel(DbUtils.resultSetToTableModel(resultSet));

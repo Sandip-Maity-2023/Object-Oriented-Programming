@@ -23,7 +23,7 @@ public class managerInfo extends JFrame {
         p.add(t);
 
         try{
-            con c=new con();
+            con1 c=new con1();
             String q="select * from Employee where job='Manager' ";
             ResultSet r=c.s.executeQuery(q);
             t.setModel(DbUtils.resultSetToTableModel(r));

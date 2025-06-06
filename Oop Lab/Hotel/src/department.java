@@ -24,7 +24,7 @@ public class department extends JFrame {
         p.add(t);
 
         try{
-            con c = new con();
+            con1 c = new con1();
             String departmentInfo = "select * from department";
             ResultSet resultSet = c.s.executeQuery(departmentInfo);
             t.setModel(DbUtils.resultSetToTableModel(resultSet));

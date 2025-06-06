@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "cal",
+      "request": "launch",
+      "mainClass": "cal",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "ABC",
+      "request": "launch",
+      "mainClass": "ABC",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "AviationManagementSystem",
+      "request": "launch",
+      "mainClass": "AviationManagementSystem",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "ThreadLifeCycleDemo",
+      "request": "launch",
+      "mainClass": "ThreadLifeCycleDemo",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "a1",
+      "request": "launch",
+      "mainClass": "a1",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
+      "name": "admin",
+      "request": "launch",
+      "mainClass": "Hotel.src.admin",
+      "projectName": "Object-Oriented-Programming_37517f96"
+    },
+    {
+      "type": "java",
       "name": "hotel_manage",
       "request": "launch",
       "mainClass": "hotel_manage",

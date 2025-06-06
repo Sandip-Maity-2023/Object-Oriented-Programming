@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class dashboard extends JFrame implements ActionListener {
     JButton add,rec;
-    dashboard(){
+    public dashboard(){
         super("Hotel Management System");
 
         rec=new JButton("RECEPTION");

@@ -106,7 +106,7 @@ public class newCustomer extends JFrame implements ActionListener {
         c1 = new Choice();
         try{
 
-            con c = new con();
+            con1 c = new con1();
             ResultSet resultSet = c.s.executeQuery("select * from room");
             while (resultSet.next()){
                 c1.add(resultSet.getString("roomnumber"));
@@ -168,7 +168,7 @@ public class newCustomer extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == add){
-            con c = new con();
+            con1 c = new con1();
             String radioBTn = null;
             if (r1.isSelected()){
                 radioBTn = "Male";

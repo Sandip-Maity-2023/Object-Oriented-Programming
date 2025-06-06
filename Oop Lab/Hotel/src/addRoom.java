@@ -9,7 +9,7 @@ public class addRoom extends JFrame implements ActionListener {
     JTextField t2,t4;
     JComboBox t3,t5,t6;
     JButton b1,b2;
-    addRoom(){
+    public addRoom(){
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,875,490);
@@ -123,7 +123,7 @@ public class addRoom extends JFrame implements ActionListener {
 
         if (e.getSource() == b1){
             try{
-                con c = new con();
+                con1 c = new con1();
                 String room = t2.getText();
                 String ava = (String) t3.getSelectedItem();
                 String status = (String)  t5.getSelectedItem();

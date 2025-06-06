@@ -10,7 +10,7 @@ public class addDriver extends JFrame implements ActionListener {
     JTextField nameText, ageText,carCText,carNText,locText;
     JComboBox comboBox, comboBox1;
     JButton add, back;
-    addDriver(){
+    public addDriver(){
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,890,490);
@@ -149,7 +149,7 @@ public class addDriver extends JFrame implements ActionListener {
             String location = locText.getText();
 
             try{
-                con c = new con();
+                con1 c = new con1();
                 String q = "insert into driver values('"+name+"','"+age+"', '"+gender+"', '"+company+"', '"+carname+"','"+available+"', '"+location+"')";
                 c.s.executeUpdate(q);
                 JOptionPane.showMessageDialog(null, "Driver Added");

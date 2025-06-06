@@ -24,7 +24,7 @@ public class employee extends JFrame {
         p.add(t);
 
         try{
-            con c = new con();
+            con1 c = new con1();
             String EmployeeSQL = "select * from Employee";
             ResultSet resultSet = c.s.executeQuery(EmployeeSQL);
             t.setModel(DbUtils.resultSetToTableModel(resultSet));

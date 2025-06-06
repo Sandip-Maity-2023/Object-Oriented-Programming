@@ -40,7 +40,7 @@ public class updateCheck extends JFrame {
         panel.add(c);
 
         try {
-            con C = new con();
+            con1 C = new con1();
             ResultSet resultSet = C.s.executeQuery("select * from customer");
             while (resultSet.next()){
                 c.add(resultSet.getString("number"));
@@ -109,7 +109,7 @@ public class updateCheck extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    con C  = new con();
+                    con1 C  = new con1();
                     String q = c.getSelectedItem();
                     String room = textField3.getText();
                     String name = textField4.getText();
@@ -150,7 +150,7 @@ public class updateCheck extends JFrame {
                 String id = c.getSelectedItem();
                 String q = "select * from customer where number = '"+id+"'";
                 try{
-                    con c = new con();
+                    con1 c = new con1();
                     ResultSet resultSet = c.s.executeQuery(q);
 
                     while (resultSet.next()){

@@ -1,0 +1,76 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class cal extends JFrame implements ActionListener {
+    JTextField tf;
+    String operator;
+    double num1, num2, result;
+
+    cal() {
+        setTitle("Simple Calculator");
+        setSize(400, 500);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setLayout(new BorderLayout());
+
+        tf = new JTextField();
+        tf.setFont(new Font("Arial", Font.PLAIN, 24));
+        tf.setEditable(false);
+        add(tf, BorderLayout.NORTH);
+
+        JPanel panel = new JPanel(new GridLayout(4, 4, 10, 10));
+        String[] buttons = {
+            "7", "8", "9", "/",
+            "4", "5", "6", "*",
+            "1", "2", "3", "-",
+            "0", "C", "=", "+"
+        };
+
+        for (String text : buttons) {
+            JButton btn = new JButton(text);
+            btn.setFont(new Font("Arial", Font.BOLD, 20));
+            btn.addActionListener(this);
+            panel.add(btn);
+        }
+
+        add(panel, BorderLayout.CENTER);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        String input = e.getActionCommand();
+
+        if (input.charAt(0) >= '0' && input.charAt(0) <= '9') {
+            tf.setText(tf.getText() + input);
+        } else if (input.equals("C")) {
+            tf.setText("");
+            num1 = num2 = result = 0;
+            operator = "";
+        } else if (input.equals("=")) {
+            try {
+                num2 = Double.parseDouble(tf.getText());
+                switch (operator) {
+                    case "+": result = num1 + num2; break;
+                    case "-": result = num1 - num2; break;
+                    case "*": result = num1 * num2; break;
+                    case "/": result = num2 != 0 ? num1 / num2 : 0; break;
+                }
+                tf.setText("" + result);
+            } catch (Exception ex) {
+                tf.setText("Error");
+            }
+        } else {
+            try {
+                num1 = Double.parseDouble(tf.getText());
+                operator = input;
+                tf.setText("");
+            } catch (Exception ex) {
+                tf.setText("Error");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new cal().setVisible(true));
+    }
+}

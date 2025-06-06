@@ -12,7 +12,7 @@ public class addEmployee extends JFrame implements ActionListener {
     JRadioButton r1, r2;
     JComboBox comboBox;
     JButton add,back;
-    addEmployee(){
+    public addEmployee(){
         JPanel panel = new JPanel();
         panel.setBounds(5,5,890,490);
         panel.setLayout(null);
@@ -180,7 +180,7 @@ public class addEmployee extends JFrame implements ActionListener {
             }
 
             try{
-                con c = new con();
+                con1 c = new con1();
                 String q = "insert into employee values('"+name+"', '"+age+"', '"+gender+"', '"+job+"', '"+salary+"','"+phone+"', '"+email+"', '"+aadhar+"')";
                 c.s.executeUpdate(q);
                 JOptionPane.showMessageDialog(null,"Employee Added");

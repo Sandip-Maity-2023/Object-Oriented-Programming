@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+import Practice.call;
+
 public class call extends JFrame implements ActionListener {
     JTextField input;
     double num1, num2, result;

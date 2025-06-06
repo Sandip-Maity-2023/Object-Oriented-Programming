@@ -41,7 +41,7 @@ import java.sql.ResultSet;
             panel.add(c);
 
             try {
-                con C = new con();
+                con1 C = new con1();
                 ResultSet r = C.s.executeQuery("select * from customer");
                 while (r.next()){
                     c.add(r.getString("number"));
@@ -91,7 +91,7 @@ import java.sql.ResultSet;
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     try {
-                        con C  = new con();
+                        con1 C  = new con1();
                         String status = textField5.getText();
                         C.s.executeUpdate("update room set cleaning_status = '"+status+"' where roomnumber = " + textField3.getText());
                         JOptionPane.showMessageDialog(null, "Updated Successfully");
@@ -128,7 +128,7 @@ import java.sql.ResultSet;
                     String id = c.getSelectedItem();
                     String q = "select * from customer where number = '"+id+"'";
                     try{
-                        con c = new con();
+                        con1 c = new con1();
                         ResultSet resultSet = c.s.executeQuery(q);
 
                         while (resultSet.next()){

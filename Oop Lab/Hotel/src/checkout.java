@@ -71,7 +71,7 @@ public class checkout extends JFrame {
 
 
         try{
-            con c = new con();
+            con1 c = new con1();
             ResultSet resultSet = c.s.executeQuery("select * from customer");
             while (resultSet.next()){
                 Customer.add(resultSet.getString("number"));
@@ -89,7 +89,7 @@ public class checkout extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    con cv = new con();
+                    con1 cv = new con1();
                     cv.s.executeUpdate("delete from customer where number = '"+Customer.getSelectedItem()+"'");
                     cv.s.executeUpdate("update room set availability = 'Available' where roomnumber = '"+labelRoomnumber.getText()+"'");
                     JOptionPane.showMessageDialog(null, "Done");
@@ -108,7 +108,7 @@ public class checkout extends JFrame {
         check.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                con c = new con();
+                con1 c = new con1();
                 try{
                     ResultSet resultSet = c.s.executeQuery("select * from customer where number = '"+Customer.getSelectedItem()+"'");
                     while (resultSet.next()){

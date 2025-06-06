@@ -1,3 +1,4 @@
+package Practice;
  public class Exception_Test  {
     public static int j;
     static void main(String[] argh){

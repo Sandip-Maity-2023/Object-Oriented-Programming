@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Hotel/src/checkout.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/department.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/login.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/login2.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/managerInfo.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Hotel/src/newCustomer.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Hotel/src/pickUp.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/searchRoom.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Hotel/src/updateRoom.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/exam.java" dialect="GenericSQL" />
   </component>
 </project>

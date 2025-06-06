@@ -1,3 +1,4 @@
+package Practice;
 class current_year{
     public static void main(String[] args) {
         int year;

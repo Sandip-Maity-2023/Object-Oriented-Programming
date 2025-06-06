@@ -34,7 +34,7 @@ public class pickUp extends JFrame {
         p.add(c);
 
         try{
-            con C = new con();
+            con1 C = new con1();
             ResultSet resultSet = C.s.executeQuery("select * from driver");
             while (resultSet.next()){
                 c.add(resultSet.getString("carname"));
@@ -51,7 +51,7 @@ public class pickUp extends JFrame {
         p.add(t);
 
         try{
-            con C = new con();
+            con1 C = new con1();
             String q = "select * from driver";
             ResultSet resultSet = C.s.executeQuery(q);
             t.setModel(DbUtils.resultSetToTableModel(resultSet));
@@ -104,7 +104,7 @@ public class pickUp extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String q = "select * from driver where carname = '"+c.getSelectedItem()+"'";
                 try{
-                    con c = new con();
+                    con1 c = new con1();
                     ResultSet resultSet = c.s.executeQuery(q);
                     t.setModel(DbUtils.resultSetToTableModel(resultSet));
                 }catch (Exception E){

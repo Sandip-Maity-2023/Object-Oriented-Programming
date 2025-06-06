@@ -83,7 +83,7 @@ public class searchRoom extends JFrame implements ActionListener {
         panel.add(table);
 
         try{
-            con c = new con();
+            con1 c = new con1();
             String q = "select * from room";
             ResultSet r = c.s.executeQuery(q);
             table.setModel(DbUtils.resultSetToTableModel(r));
@@ -120,7 +120,7 @@ public class searchRoom extends JFrame implements ActionListener {
             String Q = "select * from Room where bed_type = '"+choice.getSelectedItem()+"'";
             String Q1 = "select * from Room where availability = 'Available'  And bed_type = '"+choice.getSelectedItem()+"'";
             try {
-                con c = new con();
+                con1 c = new con1();
                 ResultSet resultSet = c.s.executeQuery(Q);
                 table.setModel(DbUtils.resultSetToTableModel(resultSet));
 

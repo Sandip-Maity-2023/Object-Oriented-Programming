@@ -12,7 +12,7 @@ public class EnhancedRegistrationForm extends JFrame {
     JButton submitButton, resetButton;
     JToggleButton toggleTerms; // Button to toggle terms agreement
 
-    public EnhancedRegistrationForm() {
+     EnhancedRegistrationForm() {
         setTitle("Enhanced Registration Form");
         setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

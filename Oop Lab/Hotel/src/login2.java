@@ -1,5 +1,6 @@
 package Hotel.src;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -71,7 +72,7 @@ public class login2 extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == b1){
             try {
-                con c = new con();
+                con1 c = new con1();
                 String user = t.getText();
                 String pass = p.getText();
 

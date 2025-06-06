@@ -1,3 +1,4 @@
+package Practice;
 public class Banking_System {
 
     double balance;
